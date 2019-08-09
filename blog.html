@@ -44,32 +44,69 @@
 					</div>
 					<div class = "entries">
 		<!-- =========================================================================================== -->
-
+						<div class="card" id="7" style="width: 75%;" >
+						  <div class="card-body"><img class = "pic" src = "images/cloud.png">
+						    <h5 class="card-title">July 20th, 2019</h5>
+						    <h6 class="card-subtitle mb-2 text-muted">First Project!</h6>
+						    <p class="card-text">Hey all, quick update on my app progress- I've been using a super helpful MERN youtube video tutorial (linked below), and have been following along with the example while implementing my own needs specific to my project. So far everything is going smoothly, and while I have limited time to work on the app, as I am working at a full time internship, as well as studying for my GRE in August, will try to continue working on it as much as I can!</p>
+							<a href=https://www.youtube.com/watch?v=7CqJlxBYj-M&list=LLYTE5Z5xogz5ksNeHaT9Y4w&index=2&t=0s class="card-link">MERN Stack Tutorial by FreeCodeCamp</a>						  
+						  </div>
+						</div>
+						<div class="card" id="6" style="width: 75%;" >
+						  <div class="card-body"><img class = "pic" src = "images/cloud.png">
+						    <h5 class="card-title">July 13th, 2019</h5>
+						    <h6 class="card-subtitle mb-2 text-muted">First Project!</h6>
+						    <p class="card-text">So I've been doing my research, and considering factors such as industry usage and ease of use, I have decided to develop a web application using the MERN stack, comprising of a MongoDB database, an Express.js/Node.js backend, and a React.js frontend. My current idea is a basic web application that will dynamically alert a user about changes in weather depending on their location. Here is a brief layout, with the API's being used linked below:</p>
+						    <br><br><p>1. Users login</p>
+							<p>2. Users select a location, and the date/time when they will be there</p>
+							<p>3. Connects to OpenWeather api to retrieve the weather at that date/time</p>
+							<p>4. Notifies user by their choice of email, SMS, or both, with SMS being sent by Twilio SMS api, of the current status of the weather.</p>
+							<p>5. At an interval selected by the user, a Cron job will be run to request to the OpenWeather app to check if the weather conditions have changed. If they have, then the user will be notified by the ways mentioned above.</p></p>
+							<a href=https://openweathermap.org/api class="card-link">Open Weather API</a>						  
+						  	<a href=https://www.twilio.com/sms class="card-link">Twilio SMS API</a>
+						  </div>
+						</div>
+						<div class="card" id="5" style="width: 75%;" >
+						  <div class="card-body"><img class = "pic" src = "images/internet.png">
+						    <h5 class="card-title">July 11th, 2019</h5>
+						    <h6 class="card-subtitle mb-2 text-muted">Future plans for this website, and for other projects</h6>
+						    <p class="card-text">Hey guys, so the website is pretty much completed up to this point. Its nothing flashy, but I think it accomplishes its goal of being a simple way for people to take a look at what I'm working on. With that being said, additional functionality I want to implement to the website is actually connecting this blog to a database, and dynamically getting the post information by clicking on a link. So the page format will be a simple table of contents with numbered entries on titles of blog posts. Then on click, I will retrieve the entire post, with date, title, and content, from a database (undecided), and show a pop up with the info. That way, I can save all of the logs somewhere else otherthan this blog.html file, which is where I'm currently writing these in a "p" tag. It will also save the webpage from being a huge scrolling monster as well. However, with the current volume of posts up to this point, this is not a pressing issue. For now, I will shift over to working on side projects. I've been looking into making a web app for a long time now, and will begin looking into both ideas, and choosing a tech stack to use.</p>
+						  </div>
+						</div>
+						<div class="card" id="4" style="width: 75%;" >
+						  <div class="card-body"><img class = "pic" src = "images/internet.png">
+						    <h5 class="card-title">July 10th, 2019</h5>
+						    <h6 class="card-subtitle mb-2 text-muted">Resolution scaling issues</h6>
+						    <p class="card-text">Hi guys, I ran into another problem... I recently invested in a 23' monitor that was on sale at Best Buy (the sale was too good to pass up). When I connected it to my laptop and ran my website, the browser opened on the bigger monitor (my laptop screen size is 15'), and immidiately I noticed glaring spacing and sizing issues. I instantly guessed it was my css, as a lot of it was declared with exact px numbers, instead of ems or %'s. I did some quick googling to see how I could alleviate this issue, and it seems to have improved. I am still seeing some sizing discrepancies when moving to different resolutions, but it has greatly improved since earlier today. Another possible task I could look into, then, would to be additionally scaling the website's appearnace for accessabilitiy on mobile phones.</p>
+						  </div>
+						</div>
 						<div class="card" id="3" style="width: 75%;" >
-						  <div class="card-body"><img class = "pic" src = "images/robot.jpg">
+						  <div class="card-body"><img class = "pic" src = "images/internet.png">
 						    <h5 class="card-title">July 6th, 2019</h5>
-						    <h6 class="card-subtitle mb-2 text-muted">I watched a movie</h6>
-						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="card-link">Card link</a>
-						    <a href="#" class="card-link">Another link</a>
+						    <h6 class="card-subtitle mb-2 text-muted">Footers are hard</h6>
+						    <p class="card-text">So I finally got around to changing stuff around, and on attempting to put my footer at the very bottom of the page as discussed in the last post, have run into several issues with my existing code. Upon review, I now see that I have been impetuously using any combination of assigning components to either position: absolute, or position: relative that would display the elements as I desired on the screen. However, I have revamped my css to fix these problems, and only use position: absolute and position: relative as needed, not as wanted. As a result, I have fixed the footer, and what you see now is that fix!</p>
 						  </div>
 						</div>
 						<div class="card" id="2" style="width: 75%;" >
-						  <div class="card-body"><img class = "pic" src = "images/robot.jpg">
-						    <h5 class="card-title">July 6th, 2019</h5>
-						    <h6 class="card-subtitle mb-2 text-muted">I watched a movie</h6>
-						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="card-link">Card link</a>
-						    <a href="#" class="card-link">Another link</a>
+						  <div class="card-body"><img class = "pic" src = "images/internet.png">
+						    <h5 class="card-title">July 2nd, 2019</h5>
+						    <h6 class="card-subtitle mb-2 text-muted">First website update!</h6>
+						    <p class="card-text">Hi all, at this point I have completed the home, projects, 
+						    blog, and about pages. Using a variety of youtube videos and googling, most of the process has been relatively painless- as there
+							is a vast amount of solutions for common pitfalls and needs, especially for web development beginners. Something I was struggling with a lot was with the footer you see below on all of my pages, as I was struggling to have it stick at the bottom. Currently the footer is viewable no matter where you are on on the screen, not at the very bottom of the page, accessable by scolling. I think I will look into changing this. </p>
 						  </div>
 						</div>
 						<div class="card" id="1" style="width: 75%; margin-bottom:100px">
-						  <div class="card-body"><img class = "pic" src = "images/robot.jpg">
-						    <h5 class="card-title">July 5th, 2019</h5>
-						    <h6 class="card-subtitle mb-2 text-muted">Summary</h6>
-						    <p class="card-text">Some quick example text</p>
-						    <a href="#" class="card-link">Image 1</a>
-						    <a href="#" class="card-link">Image 2</a>
+						  <div class="card-body"><img class = "pic" src = "images/notebook.png">
+						    <h5 class="card-title">June 28th, 2019</h5>
+						    <h6 class="card-subtitle mb-2 text-muted">Welcome to my coding log!</h6>
+						    <p class="card-text">Hello this is my first "blog" post on this website! I'll most likely use this space for documenting
+						    issues I encounter in future coding projects. So I've been using several youtube videos (linked below) to try to learn how to
+						    use HTML/CSS for basic webpage development, but I've come to realize that after getting a general idea how how tagging in
+						    html works, as well as a general gist of how to connect elements and manipulate them with css, looking at videos to learn all of the minnute "tricks" of HTML/CSS may have diminishing returns, especially for the scope of project I am currently developing. 
+						    This website will be a constant work in progress, and as I pick up new technologies and know-how I will be updating these pages
+						    as soon as possible. Therefore, for now I'm starting slow and am just going to dive into starting making the website. Wish me luck! </p>
+						    <a href="https://www.youtube.com/watch?v=EceJQ05KTf4&list=PLwoh6bBAszPrES-EOajos_E9gvRbL27wz&index=1" class="card-link">Great HTML/CSS/JS video tutorials by WB WebDevelopment</a>
 						  </div>
 						</div>
 		<!-- =========================================================================================== -->
