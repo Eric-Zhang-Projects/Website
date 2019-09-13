@@ -17,12 +17,13 @@
 }
 
 .footer{
-	height: 7%;
-	clear:both;
-	bottom:0;
+	position:absolute;
+	bottom: -2.5rem%;
 	width:100%;
+	padding:0px;
+	height:2.5rem%;
+	/*background-color: #F0F0F0;*/
 	background-color: #FFFFFF;
-	padding-top:0.01%;
 }
 
 .footer-container{
