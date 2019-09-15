@@ -58,7 +58,7 @@
 
 .headshot{
 	border-radius: 50%;
-	border:5px white;
+	border:20px solid white;
 	position:relative;
 	height: 27.5%;
 	width: 27.5%;
@@ -86,4 +86,3 @@
 .text{
 	text-align:center;
 }
-
